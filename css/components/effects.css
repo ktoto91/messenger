@@ -1,0 +1,17 @@
+.welcome-header__title {
+  animation: tracking-in-contract 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 0.4em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 0.8;
+  }
+}

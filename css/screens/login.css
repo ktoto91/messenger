@@ -10,6 +10,7 @@
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
+  color: var(--coral);
 }
 
 .welcome-header__text {
@@ -49,7 +50,7 @@
   opacity: 0.9;
   cursor: pointer;
   padding: 20px 0px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 #Login-form a {
