@@ -4,7 +4,7 @@
 
 @keyframes tracking-in-contract {
   0% {
-    letter-spacing: 0.4em;
+    letter-spacing: 0.2em;
     opacity: 0;
   }
   40% {
