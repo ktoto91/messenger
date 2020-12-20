@@ -15,3 +15,29 @@
     opacity: 0.8;
   }
 }
+
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 12.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+}
+
+.nav__notification {
+  animation: CoinFlip 2s ease-in-out infinite;
+}
+
+@keyframes CoinFlip {
+  from {
+    transform: rotatey(0);
+  }
+  to {
+    transform: rotatey(360deg);
+  }
+}

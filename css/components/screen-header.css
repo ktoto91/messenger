@@ -15,6 +15,23 @@
   margin-left: 20px;
 }
 
+.screen-header__icons {
+  position: relative;
+  display: flex;
+}
+
 .screen-header__title {
   font-size: 30px;
+}
+
+.screen-header__icons-ellipsis {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: -6px;
+  bottom: 18px;
 }
