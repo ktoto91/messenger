@@ -1,0 +1,22 @@
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 12.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  animation: CoinFlip 4s ease-in-out infinite;
+}
+
+@keyframes CoinFlip {
+  form {
+    transform: rotatey(0);
+  }
+  to {
+    transform: rotatey(360deg);
+  }
+}
