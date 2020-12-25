@@ -4,13 +4,13 @@
   top: 0;
   display: flex;
   justify-content: center;
-  padding: 5px 3px;
+  padding: 8px 3px;
   box-sizing: border-box;
   background-color: #f7f0ef;
   color: #2e363e;
   z-index: 3;
 }
-
+/* background-color: #f7f0ef; */
 .status-bar__column {
   width: 33%;
 }
