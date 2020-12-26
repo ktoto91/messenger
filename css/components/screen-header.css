@@ -20,6 +20,10 @@
   display: flex;
 }
 
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}
+
 .screen-header__title {
   font-size: 30px;
 }
