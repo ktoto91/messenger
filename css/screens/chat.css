@@ -170,9 +170,10 @@
 .reply:focus-within input {
   will-change: transform;
   width: 91.6vw;
-  transform: translateX(-12%) translateY(-80px);
+  transform: translateX(-12%); /*translateY(-80px);*/
 }
-
+/* 주석 없애면 채팅창 내려갔다 올라오는 애니메이션
 .reply:focus-within {
   transform: translateY(81px);
 }
+*/
