@@ -93,6 +93,8 @@
 */
 
 .reply {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -103,8 +105,6 @@
   align-items: center;
   box-sizing: border-box;
   transition: transform 0.3s ease-in-out;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
 }
 
 .reply .reply__column:first-child {
@@ -121,13 +121,13 @@
 }
 
 .reply input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
   padding: 8px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
 }
 
 .reply__column:last-child > i,
