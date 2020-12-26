@@ -29,15 +29,14 @@
   font-weight: 400;
 }
 
-.nav__notification {
-  animation: CoinFlip 2s ease-in-out infinite;
-}
-
-@keyframes CoinFlip {
-  from {
-    transform: rotatey(0);
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
   }
-  to {
-    transform: rotatey(360deg);
+  50% {
+    transform: translateY(-6px) rotateY(360deg);
+  }
+  100 % {
+    transform: none;
   }
 }

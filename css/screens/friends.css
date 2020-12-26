@@ -29,3 +29,29 @@
   justify-content: space-between;
   color: var(--default-font);
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* var(--coral); */
+#splash-screen {
+  background-color: #f7f0ef;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  color: var(--coral);
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 1.5s;
+}

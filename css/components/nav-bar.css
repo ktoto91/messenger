@@ -21,9 +21,10 @@
 
 .nav__notification {
   position: absolute;
-  left: 14px;
+  left: 12px;
   bottom: 10px;
   font-size: 12px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__notification__ellipsis {
