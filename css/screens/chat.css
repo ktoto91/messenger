@@ -103,6 +103,8 @@
   align-items: center;
   box-sizing: border-box;
   transition: transform 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 .reply .reply__column:first-child {
